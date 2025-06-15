@@ -26,6 +26,9 @@ def get_exchange_rate(base, target):
 def convert_currency():
 	try:
 		amount = float(entry_amount.get())
+		if (amount < 0):
+			messagebox.showerror("Input Error", "Please enter a positive numeric amount.")
+			return
 		from_currency = combo_from.get()
 		to_currency = combo_to.get()
 
