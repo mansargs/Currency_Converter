@@ -10,7 +10,7 @@ A simple command-line tool for converting currencies.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <git@github.com:mansargs/Currency_Converter.git>
    cd Currency_Converter
    ```
 2. (Optional) Create and activate a virtual environment:
